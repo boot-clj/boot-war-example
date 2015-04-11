@@ -5,7 +5,7 @@
 (task-options!
   aot  {:all     true}
   uber {:as-jars true}
-  web  {:serve   'boot-war-example/serve})
+  web  {:serve   'boot-war-example.core/serve})
 
 (deftask build-war
   "Build the uberwar file."
