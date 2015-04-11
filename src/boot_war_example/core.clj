@@ -1,5 +1,4 @@
-(ns boot-war-example.core
-  )
+(ns boot-war-example.core)
 
 (defn serve
   [req]
