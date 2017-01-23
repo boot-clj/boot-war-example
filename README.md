@@ -17,3 +17,17 @@ Run the war:
     java -jar jetty-runner.jar target/app.war
 
 Visit [http://localhost:8080/](http://localhost:8080/)
+
+## Develop locally
+
+Start a REPL server and local web server:
+
+    boot dev
+    
+Visit [http://localhost:8080/](http://localhost:8080/)
+
+You should be able to make changes to `src/boot_war_example/core.clj` and reload
+the browser and see your changes take effect.
+
+You can also connect to the running server's JVM in a repl with `boot repl -c`
+in the project directory.
