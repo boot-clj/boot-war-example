@@ -16,4 +16,4 @@ Run the war:
 
     java -jar jetty-runner.jar target/app.war
 
-Visit http://localhost:8080/
+Visit [http://localhost:8080/](http://localhost:8080/)
